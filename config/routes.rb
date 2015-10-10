@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   resources :welcomes
-
-  root 'welcomes#index'
+  resources :home
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
